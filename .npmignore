@@ -1,0 +1,45 @@
+# Source maps (keeps package small)
+*.map
+
+# Development files
+.github/
+.vscode/
+src/
+test-app/
+*.tgz
+
+# Configuration files
+.prettierrc
+.eslintrc*
+eslint.config.js
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+
+# Test files
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+
+# Documentation (keep README.md)
+CLAUDE.md
+
+# Git files
+.gitignore
+.gitattributes
+
+# CI/CD
+.travis.yml
+.gitlab-ci.yml
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Misc
+.DS_Store
+*.log
+coverage/
+node_modules/

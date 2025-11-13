@@ -13,40 +13,28 @@
   },
   "homepage": "https://github.com/mattiaferrarii/mf-react-basketball-logos#readme",
   "type": "module",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
     },
     "./nba/*": {
       "types": "./dist/nba/*.d.ts",
-      "import": "./dist/nba/*.js",
-      "require": "./dist/nba/*.cjs"
+      "import": "./dist/nba/*.mjs",
+      "require": "./dist/nba/*.js"
     },
     "./package.json": "./package.json"
   },
   "files": [
-    "dist/**/*.js",
-    "dist/**/*.cjs",
-    "dist/**/*.mjs",
-    "dist/**/*.d.ts",
-    "dist/**/*.d.cts",
-    "dist/**/*.d.mts",
-    "!dist/**/*.map",
+    "dist",
     "README.md",
     "LICENSE"
   ],
   "sideEffects": false,
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "build": "tsup",
     "test": "vitest run",
