@@ -4,8 +4,6 @@
 
 > Unofficial React components for basketball team logos
 
-![NBA logos](https://github.com/user-attachments/assets/3760c175-3a7f-44f8-a4d8-97edd630d02d)
-
 `mf-react-basketball-logos` is a maintained fork of [`react-nba-logos`](https://github.com/ChrisKatsaras/React-NBA-Logos) by Christopher Katsaras (ISC license), modernized with TypeScript, modern build tools, and designed for extension to additional basketball leagues.
 
 > Not affiliated with or endorsed by the NBA, EuroLeague, LBA, or any other league or team. All trademarks and logos belong to their respective owners.
@@ -110,8 +108,6 @@ const Example = () => {
 export default Example;
 ```
 
-![Size Example](https://github.com/user-attachments/assets/ae21de62-26b4-4e7a-bcd0-fb8fe284a51e)
-
 ### Props
 
 Each logo component accepts the following props:
@@ -141,60 +137,12 @@ interface LogoProps extends React.SVGProps<SVGSVGElement> {
 
 ---
 
-## Compatibility
-
-### Supported Browsers
-
-Modern browsers with ES2020 support:
-- Chrome/Edge 80+
-- Firefox 74+
-- Safari 13.1+
-- iOS Safari 13.4+
-
-### React Compatibility
-
-- React 18.x ✅
-- React 19.x ✅
-- Next.js 13+ ✅
-- Remix ✅
-- Vite ✅
-
-### Build Tools
-
-Works with all modern bundlers:
-- Webpack 5+
-- Vite 2+
-- Rollup 2+
-- Parcel 2+
-- esbuild
-- Turbopack
-
-### TypeScript
-
-Requires TypeScript 4.5+ for full type support.
-
-### Node.js
-
-Node.js 18+ required for development.
-
-### Bundle Size
-
-Each logo component is 2-35KB minified (most are 2-11KB). Tree-shaking ensures you only bundle the logos you import.
-
-**Example bundle impact:**
-- Import 1 team: ~2-11KB added to your bundle
-- Import 5 teams: ~10-50KB added to your bundle
-- Import all 30 NBA teams: ~244KB added to your bundle
-
----
-
 ## Available Teams (NBA)
 
-**30 NBA teams + NBA logo currently available:**
+**30 NBA teams currently available:**
 
 | Code | Team |
 |------|------|
-| NBA  | NBA Logo |
 | ATL  | Atlanta Hawks |
 | BKN  | Brooklyn Nets |
 | BOS  | Boston Celtics |
@@ -225,6 +173,19 @@ Each logo component is 2-35KB minified (most are 2-11KB). Tree-shaking ensures y
 | TOR  | Toronto Raptors |
 | UTA  | Utah Jazz |
 | WAS  | Washington Wizards |
+
+---
+
+## Roadmap
+
+Future plans for this package:
+
+- [ ] Additional leagues (EuroLeague, LBA, Liga ACB, etc.)
+- [x] Full TypeScript support
+- [x] Modern build tooling (tsup)
+- [x] Comprehensive testing (Vitest)
+- [ ] Storybook documentation
+- [ ] Dark mode variants
 
 ---
 
