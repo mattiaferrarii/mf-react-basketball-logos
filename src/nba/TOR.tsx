@@ -1,6 +1,10 @@
 import type { LogoComponent } from '../types';
 
-const TOR: LogoComponent = ({ size = 100, title = 'Toronto Raptors', ...props }) => {
+const TOR: LogoComponent = ({
+  size = 100,
+  title = 'Toronto Raptors',
+  ...props
+}) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

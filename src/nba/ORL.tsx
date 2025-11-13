@@ -1,7 +1,10 @@
-
 import type { LogoComponent } from '../types';
 
-const ORL: LogoComponent = ({ size = 100, title = 'Orlando Magic', ...props }) => {
+const ORL: LogoComponent = ({
+  size = 100,
+  title = 'Orlando Magic',
+  ...props
+}) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

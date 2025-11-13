@@ -1,7 +1,10 @@
-
 import type { LogoComponent } from '../types';
 
-const NOP: LogoComponent = ({ size = 100, title = 'New Orleans Pelicans', ...props }) => {
+const NOP: LogoComponent = ({
+  size = 100,
+  title = 'New Orleans Pelicans',
+  ...props
+}) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

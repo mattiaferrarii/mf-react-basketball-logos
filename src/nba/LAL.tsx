@@ -1,7 +1,10 @@
-
 import type { LogoComponent } from '../types';
 
-const LAL: LogoComponent = ({ size = 100, title = 'Los Angeles Lakers', ...props }) => {
+const LAL: LogoComponent = ({
+  size = 100,
+  title = 'Los Angeles Lakers',
+  ...props
+}) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

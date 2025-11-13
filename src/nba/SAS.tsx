@@ -1,7 +1,10 @@
-
 import type { LogoComponent } from '../types';
 
-const SAS: LogoComponent = ({ size = 100, title = 'San Antonio Spurs', ...props }) => {
+const SAS: LogoComponent = ({
+  size = 100,
+  title = 'San Antonio Spurs',
+  ...props
+}) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,3 @@
-
 import type { LogoComponent } from '../types';
 
 const MIA: LogoComponent = ({ size = 100, title = 'Miami Heat', ...props }) => {

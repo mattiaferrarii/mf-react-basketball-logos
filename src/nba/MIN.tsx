@@ -1,7 +1,10 @@
-
 import type { LogoComponent } from '../types';
 
-const MIN: LogoComponent = ({ size = 100, title = 'Minnesota Timberwolves', ...props }) => {
+const MIN: LogoComponent = ({
+  size = 100,
+  title = 'Minnesota Timberwolves',
+  ...props
+}) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

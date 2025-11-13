@@ -1,4 +1,3 @@
-
 import type { LogoComponent } from '../types';
 
 const UTA: LogoComponent = ({ size = 100, title = 'Utah Jazz', ...props }) => {

@@ -1,7 +1,10 @@
-
 import type { LogoComponent } from '../types';
 
-const GSW: LogoComponent = ({ size = 100, title = 'Golden State Warriors', ...props }) => {
+const GSW: LogoComponent = ({
+  size = 100,
+  title = 'Golden State Warriors',
+  ...props
+}) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
